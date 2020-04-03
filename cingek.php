@@ -23,7 +23,7 @@ $pass = ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "Rtiga")
+if($user == cingek")
 {
 	echo "\e[92m╚══════════════════════════════════╝\n";
 	echo "\e[92m╔══════════════════════════════════╗\n";
@@ -201,7 +201,7 @@ echo "\e[93m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("white","========( PIN MU = 789565 )========")."\n";
+         echo color("white","========( PIN MU = 112233 )========")."\n";
          $data2 = '{"pin":"112233"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
