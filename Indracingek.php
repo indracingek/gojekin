@@ -3,14 +3,14 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m_______________________________________________________\n";
-echo "\e[96m ******      Auto Regist + Set Pin Gopay\n";
-echo "\e[96m *** ***.       Gunakan Dengan Bijak\n";
-echo "\e[96m ***  ***   \n";
-echo "\e[96m ***  ***    \n";
-echo "\e[96m *** ***   *******  *   *****     **\n";
-echo "\e[96m ***  ***     *     *  *         *  *\n";
-echo "\e[96m ***   ***    *     *  *   **   ******\n";
-echo "\e[96m ***    ***   *     *   ****   *      *\n";
+echo "\e[96m ********      Auto Regist + Set Pin Gopay\n";
+echo "\e[96m ********       Gunakan Dengan Bijak\n";
+echo "\e[96m ***        \n";
+echo "\e[96m ***         \n";
+echo "\e[96m ***       *  **    *  *****  ***  *  *  \n";
+echo "\e[96m ***       *  *  *  *  *      *__  **     \n";
+echo "\e[96m ********  *  *   * *  *  **  *    **      \n";
+echo "\e[96m ********  *  *    **  *****  ***  *  *     \n";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -33,7 +33,7 @@ $pass =  ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "Rtiga")
+if($user == "cingek")
 {
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -49,7 +49,7 @@ else
 		echo "\e[96m[🚫]        \e[91mMasukkan User Registrasi      \e[96m [🚫]\n";
 	        echo "\e[96m[🚫]              \e[91m⚠️ WARNING ⚠️             \e[96m [🚫]\n";
 		echo "\e[96m[🚫]           \e[91mSEGERA MINTA IZIN          \e[96m [🚫]\n";
-	        echo "\e[96m[🚫]             \e[91m@Rtiga Termux       \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]             \e[91m@cingek Termux       \e[96m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
@@ -102,7 +102,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         save("token.txt",$token);
         echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠AUTO REDEEM VOUCHER GOJEK🛠▬▬▬▬▬▬▬▬▬▬▬▬");
         echo "\n".color("nevy","🔒▶️ Claim voc EATLAH");
-        echo "\n".color("yellow","⏳▶️ Sabar");
+        echo "\n".color("yellow","⏳▶️ Nteni boss");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -116,7 +116,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
         echo "\n".color("nevy","🔒▶️ Claim voc GOFOOD A");
-        echo "\n".color("yellow","⏳▶️ Sabar");
+        echo "\n".color("yellow","⏳▶️ Nteni boss");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(20);
@@ -130,7 +130,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
         echo "\n".color("nevy","🔒▶️ Claim voc GOFOOD B");
-        echo "\n".color("yellow","⏳▶️ Sabar");
+        echo "\n".color("yellow","⏳▶️ Nteni boss");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -139,7 +139,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
         echo "\n".color("nevy","🔒▶️ Claim voc Dasar");
-        echo "\n".color("yellow","⏳▶️ Sabar");
+        echo "\n".color("yellow","⏳▶️ Nteni boss");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
@@ -222,7 +222,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY KAMU ADALAH = 789565 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
+         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY KAMU ADALAH = 112233 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
          $data2 = '{"pin":"112233"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
